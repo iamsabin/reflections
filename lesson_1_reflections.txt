@@ -1,0 +1,70 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    //Fill in your answer here
+    we compared the files using the command diff -u on Mac or Linux and FC command on Windows.
+    Both command take two arguments first for old file and next for new file
+    Eg: FC old.txt new.txt
+    The difference in Mac or Linux and Windows was Mac or Linux used - and + symbols for 
+    old and new files respectively and whole file was illustrated in the terminal.
+    But in Windows, only the line that changed was shown.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    //Fill in your answer here
+    Well, at first it may help to learn the progress that you've made.
+    Changes made by you may not be appropriate at the present so you can refer past documents 
+    either using manual copy saving(not recommended), dropbox, google docs, and wikipedia.
+    Help solve unknown bug.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    //Fill in your answer here
+    You get to name the commit that you have made in commit message in changes you've made.
+    Though the changes must be reasonable, not too small or too big, just right. And then 
+    you could look on the commit you've made. Google docs do no have commits and it automatically
+    saves you files without persmission. Make harder to recognize what you've changed.
+    Git(pros):  Make commit to manual saving so that easily know what we've changed or improved.
+       (cons):  Need to know when to commit. Can have too  many changes and save it(makes difficult 
+                to make or read the commit) or very less changes and save it.(many clusters will be made)
+    Google docs: Don't have commit, automatically saves it
+        (cons):  Will be hard to know when you changed what part of your files.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    //Fill in your answer here
+    Because VCS are made to control versions. In a repository, many files may(should) be changed on adding 
+    a single code to one file(like changing parameters and arguments in functions). Allowing mutiple files
+    to save in one commit will make the change clear to lookat in the future.
+        And having one file changed which is related to other files, making every commit for each file
+    (that needs to be changed) is really a tedious method to look on what've changed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    //Fill in your answer here
+    git log: lists all the file changes have been made in the repostitory with commit id, author, time, message;
+    git diff: takes two arguments first the old file, second: new file. Outputs the differences
+                by preceeding the deleted line with '-' and added line with '+'
+
+                can also use git diff --stat to get overview
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    //Fill in your answer here
+    using git checkout command that takes one argument comment ID will help returning to the previous versions of
+    your project. By doing this, bug cleared program can be run and know when the bug was introduced again using
+    git checkout command to go to next commit or previous one. The commit that you go into will display the 
+    commit as your most recent commit. So, other commits should be noted to go to their respective commits. Other
+    methods will be introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    //Fill in your answer here
+    //Fill in your answer here
+    i want Git to use it for my large projects where different checkpoints of the projects is kept using commit.
+    Not for sample programs but across multiple files.
