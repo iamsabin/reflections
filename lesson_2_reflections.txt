@@ -38,6 +38,28 @@ How do the diagrams help you visualize the branch structure?
 	helpful for group collaboration(when hvaing two commits on different branch and then combining it).
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result of merging two branches is a single branch. And that single branch is the branch that is in before the (#) sign. This
+	new branches (master) will have all the commits made by both branch in the order of time. The common codes will be added to a 
+	single file in code. The code which is deleted or added will be compared to the original file when the branch were separated. 
+	If in both, the code is deleted, then it will be deleted if any new code is added, the new code is added in the final one.
+	We reprsent in the diagram the way we do because it will help us give knowledge about the commit and the parent and the commit 
+	log that will be displayed from the current branch.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	Automatic merging:
+	Pros:
+		easy, don't have to waste your time to manage it.
+		If code doesn't modify the same element, it automatically merges it.
+		If two of them are working and both removed the same code, then in the final version that code wouldn't be present.
+		Same implementation but different function name can be differentiated.
+	Cons:
+		It doesn't go in depth.
+		Two functions having same name, different implemetation is not differentiated here. Instead Git prompts for programmer to 
+		solve the problem.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+	Manual merging:
+	Pros:
+		You will not have any errors.
+	Cons:
+		Takes a lot of time managing the project.
+		And two of the developer may be working on same feature.
