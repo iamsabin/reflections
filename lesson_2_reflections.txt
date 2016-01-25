@@ -27,7 +27,15 @@ What are some situations when branches would be helpful in keeping your history 
 
 
 How do the diagrams help you visualize the branch structure?
-
+	Like a branch in a tree, diagrams drawn here for indicating branches really helped in looking the view where the branches
+	has occured. And the next commit to the branch as the how the branch is growing. As the leaves on the branch of the tree 
+	do not have direct access to each other but only to the corresponding leaves other descending form the structure and finally
+	the root, The commits on the one branch dont have the knowledge of the commit on the other branch unless you have their commit
+	ID. Also the commit which is made on the branch forming another branch but donot initialize branch. Then we would have to 
+	access it direct using the commit ID. Here, arrow is used in diagram to know which content can be viewed using git log, and 
+	only the previous directly connected by an arrow is only visible. Hence on visualizing the branch structure, we would precisely
+	know about the contents of git log and knowledge about branche allowing to connect two branches if needed for merging. Also, 
+	helpful for group collaboration(when hvaing two commits on different branch and then combining it).
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
