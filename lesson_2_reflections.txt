@@ -11,7 +11,11 @@ How is the staging area different from the working directory and the repository?
 
 
 How can you use the staging area to make sure you have one commit per logical change?
-	
+	Using git diff without any arguments, we can see the changes made between the working directory and the staging area. 
+	And staging area must be already created using git add it not created. And then we use git diff.
+	Also using git diff --staged to compare files among staging area and the repository, we can make sure that we have one
+	logical change between them before we start committing.
+
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	
