@@ -29,7 +29,12 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    //Fill in your answer here
+    The benefit is you can fetch and then merge the new edited code on GitHub without direct pull. You don't have to merge once
+    you have got the code that you've fetched from the GitHub as it stays on separate remote (eg: origin/master). Then you can 
+    git diff or git log the code from origin/master and your master branch code to know the difference and the changes that have
+    been made. You can then work offline (flight mode) and then later merge the fetched code with your (master) code which will 
+    have the same output as pull. And then when your work is finished you can push (push origin master) it to the GitHub.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
