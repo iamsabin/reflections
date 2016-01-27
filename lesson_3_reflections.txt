@@ -4,3 +4,39 @@ local?
     //Fill in your answer here
     For sharing codes to other contributors so that they could work on the same project for development.
     Sharing other files for other to edit and view.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    //Fill in your answer here
+    We always don't have the internet access while doing the project. So pulling automatically might not work.
+    Also you may not want to pull the changes made on the GitHub and rather working on the same file the change have been
+    added. It will gradually populate the commit on your local Git repository.
+    And pulling only specific branch you need to is really a great feature.
+    It's more controllable.
+
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    //Fill in your answer here
+    forks: used to clone between two repositories in GitHub website. Clone From someone's to yours on GitHub.
+    clones: used to clone GitHub's repostiory into your local computer. Use when copying GitHub's repostiory on local.
+    branch: used to copy current branch on your local machine to your local machine so that any changes you can work on 
+    		different works on the current version.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
