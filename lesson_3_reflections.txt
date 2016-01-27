@@ -39,7 +39,12 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    //Fill in your answer here
+    Collabrating using GitHub would be easier as you can work on the same respository across different machines. And add a branch,
+    send pull request for adding a new feature to your program can also be done in GitHub. push your progress in GitHub. And do not
+    need to be face to face present or sending attachments of your projects in presence of GitHub.
+    Only using git would be harder, as first we would have to clone, branch the repository to work or view the work of other 
+    collaborator. And the same file may need to be send or receive across just to know the progress of the project.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
