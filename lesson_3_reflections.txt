@@ -49,4 +49,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    //Fill in your answer here
+    While doing some experimental changes that may or may not go in final version. So, if you're working in group you need to 
+    collaborate to add changes to final version. You can separately push this branch to the GitHub to make your partner view the
+    changes that you've made. So if your partner finds bug in your code, it will be safe as you are going to add it to the final
+    version or your partner may find your feature not needed by the program. You can then fix the bug(if there is one) and push it
+    to review the changes and make pull request. Your partner may also make separate branch and send you pull request. Either of you
+    can merge pull request if the code is final and if not can pull and solve the conflict. Later, you can push it, merge pull request,
+    delete not needed branch and hence pull your final version code.
